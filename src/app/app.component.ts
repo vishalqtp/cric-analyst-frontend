@@ -9,7 +9,7 @@ export class AppComponent implements OnInit {
   message = 'Loading...';
 
   // Replace with your backend URL
-  private _apiUrl = 'http://localhost:3000/api/hello';
+  private _apiUrl = 'https://cric-analyst-backend.onrender.com/api/hello';
   public get apiUrl() {
     return this._apiUrl;
   }
